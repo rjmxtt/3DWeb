@@ -1,0 +1,423 @@
+.all {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    border: 0px;
+    margin: 0px;
+}
+
+#main3dImg{
+    background-image: url(../assets/main-sm.png);
+    background-repeat: no-repeat;
+    height: 288px;
+}
+
+#img-placeholder {
+    background-color: black;
+}
+
+#insertedImg {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main_contents {
+    position: relative;
+    text-align: center;
+    color: white;
+    min-height: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 40%;
+}
+
+h1 {
+    color: blue;
+    font-size: 4rem;
+}
+
+h2 {
+    color: skyblue;
+    font-size: 1.1rem;
+}
+
+h3 {
+    color: skyblue;
+    font-size: 0.8rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+h6 {
+    padding-top: 2px;
+    margin: 0px;
+    border: none;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.buttonCtrls {
+    background-color: lightblue; 
+    margin: none;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    /* font-size: 16px; */
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.info {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+.buttonCtrls:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* image */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-button {
+    width: 100px;
+    height: 70px;
+    border: solid black;
+
+    /* background: url(../application/assets/testImg/sml/Object1-1.png);  */
+}
+
+
+
+/* Navbar */ 
+.navbar_top{
+    background-color: blue;
+}
+
+.navbar_top .navbar-brand {
+    color: skyblue;
+}
+
+.navbar_top .navbar-brand:hover {
+    color: white;
+}
+
+.navbar_top .navbar-nav > li > a { 
+    color: skyblue; 
+}
+
+
+.navbar_top .navbar-nav .nav-item {
+    margin-top: 0px;
+}
+
+.navbar_top .navbar-nav > li > a:hover, 
+.navbar_top .navbar-nav > li > a:focus {
+    color: white;  
+}
+
+.dropdown-menu {
+    text-align: -webkit-left;
+    background-color:skyblue;
+    margin: 0px; 
+    padding-top: 5px;
+    border: 0px;
+}
+
+.dropdown-menu .dropdown-item {
+    color: blue;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: blue;
+}
+
+.navbar_top .navbar-toggler {
+    outline: none !important;
+}
+
+
+/* Cards */
+.row {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.col-sm-6 {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-group {
+    background-color: lightblue;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    background-color: lightblue;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    height: 100%;
+}
+
+.footer {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 2.5rem;
+}
+
+/* x3dom */
+
+.model3D  {    
+    background-color: black;     
+    margin-top: 5px;   
+    padding: 10px;    
+    height: 34rem;
+}
+
+X3D, x3d {    
+    border-radius: 5px;    
+    width: 100%;    
+    height: 100%
+}
+
+.home {
+    width: fit-content;
+}
+
+/* About */
+.about {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+@media (min-width: 320px) {
+    #main3dImg{
+        background-image: url(../assets/main-md.png);
+        background-repeat: no-repeat;
+        height: 350px;
+    }
+
+    #img-placeholder {
+        height: 350px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    h3 {
+        font-size: 1.1rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    #main3dImg{
+        background-image: url(../assets/main-lg.png);
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+
+    #img-placeholder {
+        height: 500px;
+    }
+
+    .model3D {
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #main3dImg{
+        background-image: url(../assets/main-xl.png);
+        background-repeat: no-repeat;
+        height: 660px;
+    }
+
+    #img-placeholder {
+        height: 660px;
+    }
+
+    .model3D {
+        height: 660px;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    h3 {
+        font-size: 1.75rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #main3dImg{
+        background-image: url(../assets/main-xxl.png);
+        background-repeat: no-repeat;
+        height: 750px;
+    }
+
+    #img-placeholder {
+        height: 750px;
+    }
+
+    h1 {
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    #main3dImg{
+        background-image: url(../assets/main-xxxl.png);
+        background-repeat: no-repeat;
+        height: 750px;
+    }
+
+    #img-placeholder {
+        height: 750px;
+    }
+
+    h1 {
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
