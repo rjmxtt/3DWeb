@@ -1,0 +1,54 @@
+<batchrender>
+  <environmentinfo>
+    <machineinfo>
+      <machinename>temple</machinename>
+      <username>rjm</username>
+      <processortype>GenuineIntel, stepping 9, model 14, instruction family 6</processortype>
+      <processorname>Intel Core i5-7360U CPU</processorname>
+      <processornumber>4</processornumber>
+      <ostype>OS X 64 BIT</ostype>
+      <osversion>OS X: Version 10.15.1 (Build 19B88)</osversion>
+      <oglvendorname>Intel</oglvendorname>
+      <oglrendername>Intel(R) Iris(TM) Plus Graphics 640</oglrendername>
+      <oglversion>2.2</oglversion>
+    </machineinfo>
+    <c4dinfo>
+      <c4dversion>22016</c4dversion>
+      <c4dplugins>houdiniconfig addons advanced render alembic archigrass bitmapfilter bpexchange browser bugslife_client c4d_viewport_render ca ca2 cadexchange clothilde collada14 collada15 colorchoosergui compositing deployment dwg dwgobjects dynamics exchanges expressiontag fbx gltf goz gpurenderer hair i_skp io_obj metrics mkmodeler mocca model mograph motioncam motiontracker nbp newman nodeeditor_material objects onlineupdater projectassetinspector python relaxuv sculpt sculptbrushes shader sketch sky sla spacemouse substance teamrender thinking particles tpoperators uvviewport volumes walkthrough xpressocore xtensions </c4dplugins>
+    </c4dinfo>
+  </environmentinfo>
+  <fileinfo>
+    <filename>ruby.c4d</filename>
+    <filepath>/Users/rjm/Desktop/models/ruby</filepath>
+    <renderdatainfo>
+      <rendersettings>My Render Setting</rendersettings>
+      <take>Main</take>
+      <camera>Default Camera</camera>
+      <width>1280</width>
+      <height>720</height>
+      <filmaspect>1.778</filmaspect>
+      <pixelaspect>1</pixelaspect>
+      <fps>30</fps>
+      <from>0</from>
+      <to>0</to>
+      <steps>1</steps>
+      <saveinfo>
+        <imagepath>/Users/rjm/Desktop/models/zimg</imagepath>
+        <imagedepth>8</imagedepth>
+        <imageformat>PNG</imageformat>
+      </saveinfo>
+      <videopost>
+        <effect id="1001007" name="Object Glow" />
+      </videopost>
+    </renderdatainfo>
+  </fileinfo>
+  <renderinfo>
+    <imageinfo frame="0">00:00:32 /Users/rjm/Desktop/models/zimg/ruby_i2.png</imageinfo>
+  </renderinfo>
+  <batchinfo>
+    <added>Wednesday, 6 May 2020, 17:35:27</added>
+    <started>Wednesday, 6 May 2020, 17:35:28</started>
+    <rendertime>00:00:32</rendertime>
+    <result>Finished</result>
+  </batchinfo>
+</batchrender>
